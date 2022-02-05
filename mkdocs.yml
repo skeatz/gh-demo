@@ -1,0 +1,41 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+site_name: Your name - Fab Academy
+site_description: Fab Academy documentation site for Your Name
+site_author: Your name
+copyright: Copyright 2022 Your name - Creative Commons Attribution Non Commercial
+
+site_url: null
+
+theme:
+  name: material
+  palette:
+    # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
+    primary: deep
+    accent: indigo
+  font:
+    # See available fonts at https://fonts.google.com
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: material/school
+  favicon: images/favicon.svg
+  features:
+    - navigation.tabs
+    - navigation.instant
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+      # Read more: https://timvink.github.io/mkdocs-git-revision-date-localized-plugin/options/#enabled
+      # enabled: !ENV [ENABLED_GIT_REVISION_DATE, False]
+
+markdown_extensions:
+  - extra
+  - smarty
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true

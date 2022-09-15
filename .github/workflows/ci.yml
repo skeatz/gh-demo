@@ -13,5 +13,5 @@ jobs:
           python-version: 3.x
       - run: pip install mkdocs-material 
       # - run: mkdocs gh-deploy --force
-      - uses: mhausenblas/mkdocs-deploy-gh-pages@master
+      - uses: mhausenblas/mkdocs-deplo-gh-pages@master
       

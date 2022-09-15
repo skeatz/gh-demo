@@ -3,10 +3,9 @@
 site_name: Your name - Fab Academy
 site_description: Fab Academy documentation site for Your Name
 site_author: Your name
-strict: false
 copyright: Copyright 2022 Your name - Creative Commons Attribution Non Commercial
-
 site_url: null
+strict: true
 
 theme:
   name: material

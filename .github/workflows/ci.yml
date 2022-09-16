@@ -13,8 +13,5 @@ jobs:
           python-version: 3.x
       - run: pip install mkdocs-material 
       # - run: mkdocs gh-deploy --force
+      - run: mkdocs gh-deploy -s
       # - uses: mhausenblas/mkdocs-deploy-gh-pages@master
-      - uses: peaceiris/actions-gh-pages@v3
-      - with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public

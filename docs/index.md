@@ -1,12 +1,12 @@
-# Home
+# Fab Academy Project Home 2023
 
-## Hello, new student!
+## Hello, new visitor!
 
-![](./images/week01/assignment-photo.jpg)
+![Profile Pic](https://user-images.githubusercontent.com/113325129/190598033-547eace4-0080-41ec-88ed-d5af34ef7b06.png)
 
-## Welcome to your new Fab Academy site
+## Welcome to my Fab Academy site!
 
-This is an example student blog for the Fab Academy.
+This site serves as a technical project/ assignment blog in my journey as a student in Fab Academy 2023. Please look up on the top navigation panel for the relevant links on me, my assignments and my final project!
 
 ## How to edit it
 
